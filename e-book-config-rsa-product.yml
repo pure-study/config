@@ -2,9 +2,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: "jdbc:mysql://127.0.0.1:3306/book-product?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull"
-    # will
+#    username: will
     username: '{cipher}AQAQoHamrxmn8+Vv0VPs2uWAQH2Bkq8nGdgPWe8XUSDuf4Zbj1zUENE8U5AaIGnGDLFkCiBHS47OuUMVAw71ovu7pPPK8P7EJvIad0L5AYuEkbkeoFJ/9Ks615ekD05Pos2sZts+9h6lgcSc8UlvBu/XFbHgkLVi81eomRd+SevJKfHLLil0cwi9u5QkxKIxxyPZ1GkxmVDPy4ZXIWF3LmBd99Cpd0Zd09ID0MXcw7/qeewtx0BDstHvzZn8q6JuzycMu5S+ZqbS7rAphbDOpJ2OCCgI8Z4TllWjp6GfrDTT1h3DBh+IxlHY0RRtr17ofgGIVP/hq6owVmrvPXOUKuSK8TKtQRHx9pxs73v2IcfKOx3kJd4K/wc0GJwZPeogmv4='
-    # test1234
+#    password: test1234
     password: '{cipher}AQA4ngC+tRF+a16kmpJdDipDH1/jFbfKnDMhCdazqY9DxoFUrdSd0jAz8aVSpHUd/7p87gkivfeSUKXT9c0Htjxxf9nidrmkePpqP7PKQcwHmJMRKq75BaCRCWdWW4h0FPCsIqMOL3AV9SZSoMioQfNwWhc0Nio7HFRko5/43yXk/S4vpIylCy7MA3quZSDHhp92y4KIgK9KJloS54VeZb7AbrbLPuyg42xfPMWRkwA2gygvfCrNTQTJpLMpfywo1mqh7T1qIREvKBuHDusZFHl3U/0rrdImBxtAf8i3t14lGa6/o149wCJfja5fu5I72RxUUVoVqcLdbPxC1VNJ6XtnwOHqvxnWYO0G+2NFwRrryMU5Q51FRc84qZKnzV9PZoI='
 
 mybatis:
