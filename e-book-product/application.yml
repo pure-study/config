@@ -8,3 +8,10 @@ spring:
 mybatis:
   type-aliases-package: net.will.ebook.product.domain
   mapper-locations: "classpath:/mybatis/net/will/ebook/product/*.xml"
+
+spring:
+  zipkin:
+    baseUrl: "http://zipkin:9411/"
+  sleuth:
+    sampler:
+      probability: 1.0
