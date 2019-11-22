@@ -4,14 +4,12 @@ spring:
     url: "jdbc:mysql://mysql:3306/book-product?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull"
     username: '{cipher}191f3fdc1534e3e582f034a4bce195199c31e326a1e1846765005ffae5a6b9e4'
     password: '{cipher}87b74af24f6caf508e1e8de02272e724afe74e9908076e8484e9704af73469d0'
-
-mybatis:
-  type-aliases-package: net.will.ebook.product.domain
-  mapper-locations: "classpath:/mybatis/net/will/ebook/product/*.xml"
-
-spring:
   zipkin:
     baseUrl: "http://zipkin:9411/"
   sleuth:
     sampler:
       probability: 1.0
+
+mybatis:
+  type-aliases-package: net.will.ebook.product.domain
+  mapper-locations: "classpath:/mybatis/net/will/ebook/product/*.xml"
